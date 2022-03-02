@@ -2,24 +2,34 @@
 - src: https://github.com/Be-Secure/ansible-role-oah-bes
   version: main
   name: oah.bes
-- src: https://github.com/Be-Secure/ansible-role-oah-shell
-  version: master
-  name: oah.shell
-- src: https://github.com/Be-Secure/ansible-role-oah-users
-  version: master
-  name: oah.users
-- src: https://github.com/Be-Secure/ansible-role-oah-usage
-  version: master
-  name: oah.usage
-- src: https://github.com/Be-Secure/ansible-role-oah-projects
-  version: master
-  name: oah.projects
-- src: https://github.com/Be-Secure/ansible-role-oah-git
-  version: master
-  name: oah.git
+# - src: https://github.com/Be-Secure/ansible-role-oah-shell
+#   version: master
+#   name: oah.shell
+# - src: https://github.com/Be-Secure/ansible-role-oah-users
+#   version: master
+#   name: oah.users
+# - src: https://github.com/Be-Secure/ansible-role-oah-usage
+#   version: master
+#   name: oah.usage
+# - src: https://github.com/Be-Secure/ansible-role-oah-projects
+#   version: master
+#   name: oah.projects
+# - src: https://github.com/Be-Secure/ansible-role-oah-git
+#   version: master
+#   name: oah.git
 - src: https://github.com/Be-Secure/ansible-role-oah-desktop
   version: main
   name: oah.desktop
-- src: https://github.com/Be-Secure/ansible-role-oah-vscode
+# - src: https://github.com/Be-Secure/ansible-role-oah-vscode
+#   version: main
+#   name: oah.vscode
+#########################
+- src: https://github.com/jobyko/ansible-role-oah-jenkins.git
   version: main
-  name: oah.vscode
+  name: oah.jenkins
+- src: https://github.com/jobyko/ansible-role-oah-docker.git
+  version: main
+  name: oah.docker
+- src: https://github.com/jobyko/ansible-role-oah-git1.git
+  version: main
+  name: oah.git

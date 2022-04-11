@@ -22,7 +22,7 @@ jobs:
       # Checks-out your repository under $GITHUB_WORKSPACE, so your job can access it
       - uses: actions/checkout@v2
       
-      - name: "Set flag from Commit"
+      - name: Set flag from Commit
         env:
           COMMIT_VAR: is_is_test 
           
